@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>excanvas</artifactId>
-    <version>3</version>
+    <version>4-SNAPSHOT</version>
     <name>explorercanvas</name>
     <description>WebJar for explorercanvas</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/excanvas</url>
         <connection>scm:git:https://github.com/webjars/excanvas.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/excanvas.git</developerConnection>
-        <tag>excanvas-3</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <properties>
