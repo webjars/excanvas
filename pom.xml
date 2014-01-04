@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>excanvas</artifactId>
-    <version>3-SNAPSHOT</version>
+    <version>3</version>
     <name>explorercanvas</name>
     <description>WebJar for explorercanvas</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/excanvas</url>
         <connection>scm:git:https://github.com/webjars/excanvas.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/excanvas.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>excanvas-3</tag>
     </scm>
     
     <properties>
@@ -80,7 +80,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/unzipped" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/unzipped" includes="*.js"/>
+                                    <fileset dir="${project.build.directory}/unzipped" includes="*.js" />
                                 </move>
                             </target>
                         </configuration>
